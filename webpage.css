@@ -1,0 +1,17 @@
+.center{
+    text-align: center;
+}
+
+.menu-item {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    font-size: 16px;
+}
+
+#photo{
+    border-radius: 50%;
+    height: 18%;
+    width: 18%;
+}
