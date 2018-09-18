@@ -1,0 +1,40 @@
+body {
+    font-size: 20px
+}
+
+.center{
+    text-align: center;
+    /* align-items: center;
+    align-content: center */
+}
+
+#headshot img{
+    align-content: center;
+    width: 500px;
+}
+.projects img{
+    width: 750px;
+}
+ul {
+    list-style: none;
+  }
+
+@media only screen and (max-width: 650px){
+    body{
+        font-size: 20px
+    }
+    .container {
+        width: 300px
+    }
+    .technologies img{
+        height: 30px
+    }
+    #headshot img{
+        align-content: center;
+        width: 375px;
+    }
+    .projects img{
+        align-content: center;
+        width: 375px;
+    }
+}
