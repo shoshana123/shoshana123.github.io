@@ -12,8 +12,18 @@ body {
     align-content: center;
     width: 500px;
 }
-.projects img{
-    width: 750px;
+.project{
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+.projectInfo{
+    width: 50%;
+}
+.project img{
+    height: 300px;
+    width: 600px;
+    opacity: 0.60;
 }
 ul {
     list-style: none;
