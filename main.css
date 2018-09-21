@@ -4,6 +4,9 @@ body {
 
 .center{
     text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Quattrocento', serif; */
+
     /* align-items: center; */
     /* align-content: center */
 }
