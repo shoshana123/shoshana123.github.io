@@ -22,7 +22,8 @@ body {
     width: 500px;
 }
 
-.resumeInfo {
+#resumeInfo{
+    /* style: "visibility: hidden"; */
     /* : none; */
 }
 .project{
