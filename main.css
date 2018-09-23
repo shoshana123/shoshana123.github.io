@@ -51,7 +51,7 @@ body {
     border-color: transparent #F45B69 transparent transparent;
   }
   .timeline ul li:nth-child(even) div {
-    left: -439px;
+    left: -600px;
   }
 
   .timeline ul li:nth-child(even) div::before {
@@ -75,6 +75,20 @@ body {
 ul {
     list-style: none;
   }
+
+a:hover, a:active {
+    background-color: turquoise;
+    color: white;
+}
+
+a:link {
+    background-color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 30px, dotted, black;
+    display: inline-block;
+}
 .skillsRow{
     display: flex;
     flex-direction: row;
