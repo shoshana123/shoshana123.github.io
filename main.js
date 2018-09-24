@@ -68,14 +68,3 @@ document.getElementById('barnard').addEventListener('click', () => resumeInfo('b
 
 document.getElementById('graceHopper').addEventListener('click', () => resumeInfo('graceHopper'));
 
-
-{/* <h3>Corps de Ballet</h3>
-    <h4>New York, NY</h4>
-    <h5>2009 - 2012</h5>
-  <p>Performed in 7 - 10 shows weekly, 6 days per week and rehearsed 6 - 8 hours daily</p></div>);
-  <h3>Private Wealth Management Global Management Analyst</h3>
-  <h4>New York, NY</h4>
-  <h5>2016 - 2018</h5>
-  <p>Streamlined, analyzed and produced monthly reports and presentations including business’ P&L, net sales, product pipeline, headcount, client uptake and regulatory data requests</p>
-  <p>Coded dynamically generated client documents for European regulation based on investment performance in 4 languages</p>
-  <p>Monitored the non-compensation expenses for 4 regions and 5 content specialist areas of the business</p></div>; */}
