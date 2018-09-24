@@ -22,9 +22,8 @@ body {
     width: 500px;
 }
 
-#resumeInfo{
-    /* style: "visibility: hidden"; */
-    /* : none; */
+#resumeDetail{
+    font-family: 'Cormorant Garamond', serif;
 }
 .project{
     display: flex;
