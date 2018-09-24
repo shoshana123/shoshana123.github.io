@@ -11,7 +11,6 @@ function resumeInfo (id){
   } else if(id==='gs'){
     // document.getElementsByClassName('resumeInfo').style.visibility="hidden"
     if(document.getElementById('gsInfo').style.visibility==='hidden'){
-      // document.getElementsByClassName('resumeDetail').style.visibility = 'hidden'
       console.log('here')
       document.getElementById('gsInfo').style.visibility='visible'
     } else {
