@@ -36,7 +36,6 @@ function resumeInfo (id){
   let checker
   let specificDetails
   for(let key in resumeDetails){
-    console.log('here',resumeDetails[key])
     if(key===id){
       checker = resumeDetails[key].title
       specificDetails = resumeDetails[key]

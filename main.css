@@ -16,7 +16,30 @@ body {
     flex-direction: row;
     align-items: center
 }
+#resumeDetail {
+    display: flex;
+    flex-direction: column
 
+}
+
+#topLine {
+    /* width: 800px; */
+    display: flex;
+    flex-direction: row;
+    /* align-items: space-between; */
+
+}
+
+#left{
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row
+}
+
+#right{
+    justify-content:flex-end
+    /* align-content: flex-end */
+}
 #headshot img{
     align-content: center;
     width: 500px;
