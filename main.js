@@ -41,11 +41,11 @@ function resumeInfo (id){
       specificDetails = resumeDetails[key]
     }
   }
-  if(checker!==document.getElementById('title').innerHTML){
-    document.getElementById('employer').innerHTML = specificDetails.employer;
-    document.getElementById('title').innerHTML = specificDetails.title;
+  if(checker!==document.getElementById('title').innerHTML.slice(0,-2)){
+    document.getElementById('employer').innerHTML = specificDetails.employer+', ';
+    document.getElementById('title').innerHTML = specificDetails.title+', ';
     document.getElementById('date').innerHTML = specificDetails.date;
-    document.getElementById('location').innerHTML = specificDetails.location;
+    document.getElementById('location').innerHTML = specificDetails.location+',';
     document.getElementById('description').innerHTML = specificDetails.description;
 
   }
