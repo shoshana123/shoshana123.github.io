@@ -52,10 +52,15 @@ body {
 }
 
 .resumeButton {
-    font-family: inherit; /* 1 */
-    font-size: 100%; /* 1 */
-    line-height: 1.15; /* 1 */
-    margin: 0;
+    font-family: inherit;
+    font-size: 100%;
+    border: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.resumeButton:focus {
+    outline: 0;
 }
 #headshot img{
     align-content: center;
