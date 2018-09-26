@@ -11,6 +11,32 @@ body {
     /* align-content: center */
 }
 
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightblue
+}
+
+#name{
+    padding-left: 20px;
+}
+#navbarOtherItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px
+}
+a{
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    color: inherit
+}
+.navbarItem{
+    padding-right: 10px;
+    text-decoration: none;
+}
+
 .section1 {
     display: flex;
     flex-direction: row;
