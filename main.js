@@ -66,12 +66,3 @@ document.getElementById('gs').addEventListener('click', () => resumeInfo('gs'));
 document.getElementById('barnard').addEventListener('click', () => resumeInfo('barnard'));
 
 document.getElementById('graceHopper').addEventListener('click', () => resumeInfo('graceHopper'));
-
-// window.onbeforeunload = function () {
-//   window.scrollTo(0, 0);
-// }
-// $(document).ready(function(){
-//   $(this).scrollTop(0);
-// });
-// let _TIMEOUT = 300
-// setTimeout(function(){$(window).scrollTo(0,0)},_TIMEOUT );

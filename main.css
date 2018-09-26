@@ -1,5 +1,6 @@
 body {
-    font-size: 20px
+    font-size: 22px;
+    margin-left: 0px
 }
 
 .center{
@@ -20,10 +21,13 @@ body {
     top: 0;
     width: 100%;
     z-index: 2;
+    margin-left: 0px;
+
 }
 
+
 #name{
-    padding-left: 20px;
+    margin-left: 20px;
 }
 #navbarOtherItems{
     display: flex;
@@ -49,7 +53,8 @@ a{
 }
 #resumeDetail {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    font-size: 20px;
 
 }
 
@@ -73,6 +78,9 @@ a{
     padding-right: 5px;
 }
 #title {
+    padding-right: 5px;
+}
+#location {
     padding-right: 5px;
 }
 
@@ -147,22 +155,37 @@ a.button {
     align-items: center;
 }
 
-/* .iconBox {
-    width: 500px;
-} */
+
 .icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* width: 500px; */
 }
 
 @media only screen and (max-width: 650px){
     body{
-        font-size: 20px
+        font-size: 19px;
     }
-    .container {
-        width: 300px
+    .section1{
+        flex-direction: column-reverse;
+    }
+    #resumeDetail {
+        font-size:16px
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: 1.25em;
+    }
+    h4{
+        font-size: 1.25em;
+    }
+    .skillsRow{
+        flex-direction: column;
     }
     .technologies img{
         height: 30px
@@ -171,8 +194,10 @@ a.button {
         align-content: center;
         width: 375px;
     }
-    .projects img{
-        align-content: center;
-        width: 375px;
+    .project{
+        flex-direction: column;
+    }
+    #project2{
+        flex-direction: column-reverse;
     }
 }
