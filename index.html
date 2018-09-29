@@ -68,14 +68,14 @@
 				<hr>
 					<section class="center">
 						<a id='projects'>
-						<div id="projectList">
 							<div class="sectionTitle">
-							<h1>Projects</h1>
-						</a>
-					</div>
-							<div class="project" id='project1'>
+								<h1>Projects</h1>
+							</a>
+						</div>
+						<div id="projectList">
+							<div class="project" id='project1'>									<div class=projectImage>
 							<img src="images/projects/mathvilleImg.png" />
-
+								</div>
 						<div class="image">
 						</div>
 						<div class="projectInfo">
@@ -94,11 +94,14 @@
 								<a href="https://github.com/shoshana123/movement-experiment" class="button">Github</a>
 							</ul>
 					</div>
+					<div class=projectImage>
 						<img src="images/projects/movementExperimentImg.png"  />
+					</div>
 				</div>
 				<div class="project" id='project3'>
+					<div class=projectImage>
 					<img src="images/projects/tbdImg.png" />
-
+					</div>
 				<div class="projectInfo">
 						<h2>TBD: Totally Bomb Destinations</h2>
 						<p>An e-commerce site selling destination vacations. This site was built using PostgreSQL, Sequelize, Node, Express, React, React-Redux, CSS, HTML, Mocha, Chai and Enzyme.</p>
@@ -107,6 +110,7 @@
 							</ul>
 					</div>
 			</div>
+		</div>
 					</section>
 				<!-- Six -->
 				<hr>
@@ -184,25 +188,24 @@
 					<section class="center">
 						<div class="inner medium">
 							<h2>Get in touch</h2>
-							<form method="post" action="#">
+							<form method="post" id="contactform">
 								<div class="fields">
-									<div class="field half">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" value="" placeholder="Name"/>
-									</div>
-									<div class="field half">
+										<input type="text" name="name" id="name" value="" placeholder="Your Name"/>
 										<label for="email">Email</label>
-										<input type="email" name="email" id="email" value="" placeholder="Email"/>
-									</div>
-									<div class="field">
+										<input type="email" name="_replyto" id="email" value="" placeholder="Your Email"/>
+										<input type="hidden" name="_subject" value="Website contact" />
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6"></textarea>
-									</div>
+										<textarea name="message" id="message" rows="6" placeholder="Your Message"></textarea>
 								</div>
-								<ul class="actions special">
-									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
-								</ul>
+								<input type="hidden" name="_next" value="https://shoshana123.github.io/" />
+								<input type="text" name="_gotcha" style="display:none" />
+								<input type="submit" name="submit" id="submit" value="Send" />
 							</form>
+							<script>
+									var contactform =  document.getElementById('contactform');
+									contactform.setAttribute('action', '//formspree.io/' + 'shoshanarosenfield' + '@' + 'gmail' + '.' + 'com');
+							</script>
 
 						</div>
 					</section>

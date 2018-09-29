@@ -60,18 +60,12 @@ a{
 hr{
     width: 70%;
     display: dotted;
-    /* border: 0 none; */
-    /* height: 1px; */
     size: 30px;
-
 }
 
 #topLine {
-    /* width: 800px; */
     display: flex;
     flex-direction: row;
-    /* align-items: space-between; */
-
 }
 
 #left{
@@ -95,7 +89,6 @@ hr{
 #right{
     justify-content:flex-end;
     width: 15%;
-    /* align-content: flex-end */
 }
 
 .resumeButton {
@@ -126,12 +119,14 @@ hr{
 .project{
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
     justify-content: center;
-
 }
 .projectInfo{
     width: 50%;
+}
+
+.projectImage{
+    widows: 50%;
 }
 .project img{
     height: 300px;
