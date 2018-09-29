@@ -18,12 +18,10 @@ body {
     height: 100px;
     z-index: 2;
     margin-left: 0px;
-    background-color:lightblue
+    color: white;
+    background-color: black;
 }
 
-#name{
-    margin-left: 20px;
-}
 #navbarOtherItems{
     display: flex;
     flex-direction: row;
@@ -126,7 +124,7 @@ hr{
 }
 
 .projectImage{
-    widows: 50%;
+    wid: 50%;
 }
 .project img{
     height: 300px;
@@ -135,10 +133,12 @@ hr{
 }
 ul {
     list-style: none;
+    padding-inline-start: 0px;
   }
 
 a.button:hover, a.button:active {
     color: white;
+    background-color: black;
     border-color: white;
 }
 
@@ -163,8 +163,65 @@ a.button {
     flex-direction: column;
     align-items: center;
 }
+.formItem{
+    display: flex;
+    justify-content: center;
+}
+.formLabel{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    margin-right: 1%;
+}
+.formInput{
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+    font-family: 'Cormorant Garamond', serif;
+}
 
+input{
+    height: 150%;
+    width: 40%;
+    font-size: 65%;
+}
 
+textarea {
+    font-size: 65%;
+    width: 50%;
+}
+
+#submit{
+    padding: 14px 25px;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: inline-block;
+    width: 8%;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+#submit:hover{
+    padding: 14px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: inline-block;
+    background-color: black;
+    width: 10%;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 100%;
+}
 .icons {
     display: flex;
     flex-direction: row;
@@ -206,7 +263,19 @@ a.button {
     .project{
         flex-direction: column;
     }
+    .projectInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
     #project2{
         flex-direction: column-reverse;
+    }
+    #submit{
+        width: 20%;
+    }
+    #submit:hover{
+        width: 20%;
     }
 }

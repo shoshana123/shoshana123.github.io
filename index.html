@@ -26,6 +26,9 @@
 <a href='#skills'>
 	<p class='navbarItem'>Skills</p>
 </a>
+<a href='#contact'>
+		<p class='navbarItem'>Contact</p>
+	</a>
 </div>
 </div>
 				<!-- One -->
@@ -81,7 +84,7 @@
 						<div class="projectInfo">
 								<h2>Mathville</h2>
 								<p>A 2D adventure world game built for elementary school students to practice math. This game was built using PostgreSQL, Sequelize, Node, Express, React, Redux, Phaser, Tiled, CSS and HTML.</p>
-								<ul class="actions stacked">
+								<ul>
 										<li><a href="https://github.com/sat-mathville/mathville" class="button">Github</a></li>
 									</ul>
 							</div>
@@ -141,7 +144,7 @@
 							</div>
 							<div class="skillsRow">
 								<section>
-									<span></span>
+									<div></div>
 									<h3>Sequelize</h3>
 									<img src="images/technologies/sequelizeLogo.png"/>
 								</section>
@@ -183,20 +186,42 @@
 								</section>
 							</div>
 					</section>
+					<hr>
 
 				<!-- Seven -->
 					<section class="center">
-						<div class="inner medium">
+						<div class="sectionTitle">
+							<a id="contact">
 							<h2>Get in touch</h2>
+							</a>
+						</div>
 							<form method="post" id="contactform">
-								<div class="fields">
-										<label for="name">Name</label>
+								<div id="contactFields">
+									<div class='formItem'>
+										<div class='formLabel'>
+										<label for="name">Name:</label>
+										</div>
+										<div class='formInput'>
 										<input type="text" name="name" id="name" value="" placeholder="Your Name"/>
-										<label for="email">Email</label>
+										</div>
+									</div>
+									<div class='formItem'>
+											<div class='formLabel'>
+										<label for="email">Email:</label>
+											</div>
+										<div class='formInput'>
 										<input type="email" name="_replyto" id="email" value="" placeholder="Your Email"/>
+									</div>
+									</div>
 										<input type="hidden" name="_subject" value="Website contact" />
-										<label for="message">Message</label>
+										<div class='formItem'>
+										<div class='formLabel'>
+										<label for="message">Message:</label>
+										</div>
+										<div class='formInput'>
 										<textarea name="message" id="message" rows="6" placeholder="Your Message"></textarea>
+									</div>
+									</div>
 								</div>
 								<input type="hidden" name="_next" value="https://shoshana123.github.io/" />
 								<input type="text" name="_gotcha" style="display:none" />
