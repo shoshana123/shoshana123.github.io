@@ -102,7 +102,7 @@ hr{
 }
 #headshot img{
     align-content: center;
-    width: 500px;
+    width: 350px;
 }
 
 #resumeDetail{
@@ -273,9 +273,17 @@ textarea {
         flex-direction: column-reverse;
     }
     #submit{
-        width: 20%;
+        width: 5em;
     }
     #submit:hover{
-        width: 20%;
+        width: 5em;
+    }
+    #navbarOtherItems{
+        padding-right: 0.05em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navbarItem{
+        margin: 0%;
     }
 }
